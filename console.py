@@ -27,11 +27,12 @@ class HBNBCommand(cmd.Cmd):
     def do_quit(self, line):
         """Quit command to exit the program
         """
-        return True
+        exit()
 
     def do_EOF(self, line):
         """End of File command: exit the program"""
-        return True
+        print()
+        exit()
 
     def emptyline(self):
         """overridden to not do nothing"""
