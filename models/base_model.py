@@ -5,8 +5,8 @@ Contains the Base class for the AirBnB clone console
 """
 
 import uuid
+import models
 from datetime import datetime
-from models import storage
 
 
 class BaseModel:
