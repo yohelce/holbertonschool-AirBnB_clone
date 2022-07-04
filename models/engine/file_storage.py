@@ -28,7 +28,7 @@ class FileStorage:
         """Sets new obj in __objects dictionary."""
 
         if obj is not None:
-            key = obj.__class.__name__ + "." + obj.id
+            key = obj.__class__.__name__ + "." + obj.id
             self.__objects[key] = obj
 
     def save(self):
