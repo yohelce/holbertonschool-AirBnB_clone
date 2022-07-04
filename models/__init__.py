@@ -4,7 +4,7 @@ Module for FileStorage
 """
 
 
-from models.engine import FileStorage
+from models.engine.file_storage import FileStorage
 from models.base_model import BaseModel
 from models.user import User
 from models.city import City
@@ -22,5 +22,5 @@ classes = {"BaseModel": BaseModel,
               "Amenity": Amenity,
               "Review": Review}
 
-storage = file_storage.FileStorage()
+storage = FileStorage()
 storage.reload()
