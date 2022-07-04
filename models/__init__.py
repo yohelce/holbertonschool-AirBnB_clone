@@ -15,12 +15,12 @@ from models.amenity import Amenity
 
 
 classes = {"BaseModel": BaseModel,
-              "User": User,
-              "State": State,
-              "City": City,
-              "Place": Place,
-              "Amenity": Amenity,
-              "Review": Review}
+           "User": User,
+           "State": State,
+           "City": City,
+           "Place": Place,
+           "Amenity": Amenity,
+           "Review": Review}
 
 storage = FileStorage()
 storage.reload()
