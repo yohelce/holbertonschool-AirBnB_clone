@@ -23,7 +23,7 @@ class BaseModel:
             for key, val in kwargs.items():
                 if key == 'created_at' or key == 'updated_at':
                     time = "%Y-%m-%dT%H:%M:%S.%f"
-                    self.__dict__[key] = datetime.strptime(kwargs[key], time)
+                    val = datetime.strptime(kwargs[key], time)
                 if key != '__class__':
                     setattr(self, key, val)
 
