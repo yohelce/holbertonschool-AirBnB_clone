@@ -43,13 +43,13 @@
 h3 {
     top: 15%;
     font-weight: 600;
-    margin: 10px 50px;
+    margin: 10px 0px 0px 50px;
 }
 
 h4 {
     font-weight: 400;
     font-size: 14px;
-    margin: 0 50px;
+    margin: 0px 0px 10px 50px;
 }
 
 .popover {
